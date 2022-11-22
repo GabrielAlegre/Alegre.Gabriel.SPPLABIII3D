@@ -1,0 +1,64 @@
+{
+  "animales": [
+    {
+      "id": 1,
+      "titulo": "Gato viejito sin dueño",
+      "animal": "Gato",
+      "descripcion": "Gato Mimoso en adopcion",
+      "precio": "24111",
+      "raza": "Maine Coon",
+      "fechaNacimiento": "2010-01-22",
+      "vacuna": "No"
+    },
+    {
+      "id": 2,
+      "titulo": "Venta cachorro",
+      "animal": "Perro",
+      "descripcion": "Cachorro bien cuidado",
+      "precio": "4361",
+      "raza": "Labrador",
+      "fechaNacimiento": "2020-03-31",
+      "vacuna": "Si"
+    },
+    {
+      "id": 3,
+      "titulo": "Venta gato marron",
+      "animal": "Gato",
+      "descripcion": "No es arisco",
+      "precio": "1324",
+      "raza": "siames",
+      "fechaNacimiento": "2017-01-02",
+      "vacuna": "Si"
+    },
+    {
+      "id": 5,
+      "titulo": "Adopcion Perro rescatado",
+      "animal": "Perro",
+      "descripcion": "Perro callejero",
+      "precio": "1212",
+      "raza": "Pura calle",
+      "fechaNacimiento": "2012-11-22",
+      "vacuna": "No"
+    },
+    {
+      "id": 6,
+      "titulo": "Gato busca familia",
+      "animal": "Gato",
+      "descripcion": "Gato rescatado en venta",
+      "precio": "3114",
+      "raza": "Cruza",
+      "fechaNacimiento": "2020-12-13",
+      "vacuna": "No"
+    },
+    {
+      "id": 7,
+      "titulo": "Perro en adopcion",
+      "animal": "Perro",
+      "descripcion": "Perro busca familia",
+      "precio": "6",
+      "raza": "Cruza",
+      "fechaNacimiento": "2022-12-12",
+      "vacuna": "Si"
+    }
+  ]
+}

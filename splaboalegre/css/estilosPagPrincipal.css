@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 95%;
+    position:absolute;
+    z-index: 10;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+   
+    padding-left: 70px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li{
+   list-style: none;
+}
+
+header ul li a{
+    position:  relative;
+    margin:  0px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+#logo{
+    width: 120px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.imagenFondo{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/fotoPaginaPrincipal.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+li:hover{
+    transform: scale(1.2);
+}
+
+a:hover{
+    color: rgb(75, 75, 75);
+}
+
+
+#titulo{
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-size: 40px;
+}
+
+.card{
+    margin: 20px 0px;
+    border: 1px solid black;
+    background-color: #ebe8e8;
+    width: 25%;
+    text-align: center;
+    padding: 10px 10px 10px 0;
+    border-radius: 10px;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 20px rgb(46, 46, 46);
+}
+
+
+#anunciosMascotas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    margin: 10px;
+}
+
+#main-content {
+    width: 100%;
+}
+
+
+.card h2 {
+    padding-bottom: 10px;
+
+    
+}
+
+.card h3 {
+    padding-bottom: 10px;
+
+
+}
+
+.card h4 {
+    padding-bottom: 10px;
+}
+
+.card button {
+    display: block;
+    background-color: orange;
+    margin: 8px auto;
+    font-size: 1em;
+    padding: 5px;
+    width: 90%;
+    color: white;
+    cursor: pointer;
+}
+
+.card img{
+    width: 30px;
+    height: 30px;
+    padding-left: 18px;
+    padding-top: 5px;
+}
+
+.card div{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.precio{
+    color: green;
+    font-weight: bold;
+}
+
+.parrafosImg{
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+    nav{
+        margin: 30px;
+        padding-top: 30px;
+    }
+
+    nav>ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+
+    }
+
+    header ul li a{
+        font-size: 20px;
+    }
+
+    li{
+        padding: 3px;
+    }
+
+    .form{
+        margin : 0 auto;
+        max-width: 450px;
+    }
+
+    .controles{
+        width: 93%;
+    }
+    
+}
+
+#divSpinner{
+    margin : 0 auto;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+img{
+    width: 120px;
+    height: 80px;
+}
